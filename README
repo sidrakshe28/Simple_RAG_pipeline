@@ -1,0 +1,15 @@
+Basic RAG Pipeline using LangChain, FAISS & Ollama
+
+This project demonstrates a Retrieval-Augmented Generation (RAG) pipeline built with:
+
+LangChain
+
+FAISS Vector Store
+
+HuggingFace sentence embeddings
+
+Ollama local LLM (phi3-mini)
+
+Local document retrieval from /docs folder
+
+The system loads local text files, converts them into embeddings, stores them in a vector database, retrieves relevant context based on a user query, and generates an answer with source references.
